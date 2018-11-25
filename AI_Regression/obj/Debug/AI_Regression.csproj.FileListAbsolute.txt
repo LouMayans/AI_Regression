@@ -1,0 +1,7 @@
+C:\Users\Lou\Documents\Stuff\School Projects Homework Slides etc\CS Artificial Intelligence\AI_Regression\AI_Regression\obj\Debug\AI_Regression.csprojAssemblyReference.cache
+C:\Users\Lou\Documents\Stuff\School Projects Homework Slides etc\CS Artificial Intelligence\AI_Regression\AI_Regression\obj\Debug\AI_Regression.csproj.CoreCompileInputs.cache
+C:\Users\Lou\Documents\Stuff\School Projects Homework Slides etc\CS Artificial Intelligence\AI_Regression\AI_Regression\bin\Debug\AI_Regression.exe.config
+C:\Users\Lou\Documents\Stuff\School Projects Homework Slides etc\CS Artificial Intelligence\AI_Regression\AI_Regression\bin\Debug\AI_Regression.exe
+C:\Users\Lou\Documents\Stuff\School Projects Homework Slides etc\CS Artificial Intelligence\AI_Regression\AI_Regression\bin\Debug\AI_Regression.pdb
+C:\Users\Lou\Documents\Stuff\School Projects Homework Slides etc\CS Artificial Intelligence\AI_Regression\AI_Regression\obj\Debug\AI_Regression.exe
+C:\Users\Lou\Documents\Stuff\School Projects Homework Slides etc\CS Artificial Intelligence\AI_Regression\AI_Regression\obj\Debug\AI_Regression.pdb
