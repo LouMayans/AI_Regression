@@ -17,6 +17,11 @@ namespace AI_Regression
             //Generates points;
             points = PointsGenerator.GeneratePoints(numberOfPoints, 10, 20);
 
+            for (int i = 0; i < points.GetLength(0); i++)
+            {
+                Console.WriteLine("Point {0} = ({1},{2})", i, points[i].position.X, points[i].position.Y);
+            }
+
             //mean of X and Y
             Vector2 meanOfPoints = Vector2.Zero;
             meanOfPoints.X = points.Sum(point => point.position.X) / numberOfPoints;
@@ -48,11 +53,11 @@ namespace AI_Regression
 
             // Sum(abi.x^2) Sum(abi.y^2)
             Vector2 sumOfa2b2 = Vector2.Zero;
-            sumOfa2b2.X = a2b2.Sum(x => x.Y);
+            sumOfa2b2.X = a2b2.Sum(x => x.X);
             sumOfa2b2.Y = a2b2.Sum(x => x.Y);
 
             //Sum A and B multiplied
-            float mult = sumOfa2b2.X * sumOfa2b2.Y;
+            float mult = (float)Math.Sqrt(sumOfa2b2.X) * (float)Math.Sqrt(sumOfa2b2.Y);
 
             //Correlation R
             float r = sumC / mult;
@@ -64,6 +69,9 @@ namespace AI_Regression
             float m = (meanOfPoints.X * meanOfPoints.Y - sumProductOfMeans) / (meanOfPoints.X * meanOfPoints.X - (points.Sum(point => point.position.X * point.position.X))/numberOfPoints);
 
             float yInt = meanOfPoints.Y - m * meanOfPoints.X;
+            Console.WriteLine("Correlation r = {0}", r);
+            Console.WriteLine("y = {0}x + {1}", m, yInt);
+            Console.Read();
         }
     }
 }
